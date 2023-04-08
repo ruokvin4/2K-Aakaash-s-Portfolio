@@ -1,0 +1,235 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body{
+  background-color: black;
+  margin: 0%
+}
+
+
+.minimal-image{
+  padding-top: 0%;
+  margin-top: -17px;
+  width: 100%;
+  position: absolute;
+}
+
+
+.logo-image{
+  position:relative;
+  width: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+
+.last-dp{
+  display: inline-block;
+  width: 70px;
+  position: absolute;
+  padding-top: 230px;
+  padding-left: 480px;
+}
+
+
+.about-me{
+  color: rgb(255, 251, 5);
+  width: 700px;
+  font-family: 'SF Pro Display', sans-serif;
+  line-height: 30px;
+  text-align: center; 
+  display: flex;  
+  margin-left: 130px;
+  position: relative;
+  margin-top: 200px;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 130px 30px 30px 30px;
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 0 0 400px rgba(255,255,255,0.08);
+  cursor: default;
+  border-radius: 15px;
+  background-color: rgb(228 228 228 / 15%); 
+}
+
+
+
+.header-text{
+  font-family: Product Sans;
+  font-size:30px;
+  color: #fff;
+  display: flex;  
+  justify-content:space-between;
+
+}
+
+
+nav ul{
+  flex: 1;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: -50px;
+}
+
+nav ul li{
+  display: inline-block;  
+  list-style: none;
+  margin: 20px 20px;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: Product Sans;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+}
+
+
+
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: width 0.2s;
+}
+
+
+nav ul li a:hover::after{
+  width: 50%;
+}
+
+
+
+.main-text{
+  position: relative;
+  color: #fff;
+  line-height: 45px;
+  font-family: Product Sans;
+  font-size:30px;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: 70px;
+  width: 700px;
+  cursor: default;
+}
+
+.name-span{
+  color: rgb(255, 238, 0);
+  text-shadow: 1px 1px 10px black;
+}
+
+.bg-image{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+  object-position: center top;
+}
+
+
+.say-hello{
+  position: relative;
+  color: #fff;
+  margin-top: 150px;
+  margin-left: 410px;
+  font-size: 50px;
+  font-family: Product Sans;
+}
+
+.form-hello{
+  color: #fff;
+  margin-left: 350px;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.hello-form{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name-bar{
+  width: 300px;
+  height: 25px;
+  border-bottom-color: blue;
+  background-color: rgb(68,68,68);
+  border-top-color: rgb(68,68,68);
+  border-left-color: rgb(68,68,68);
+  border-right-color: rgb(68,68,68);
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.name-label{
+  display: inline-block;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  margin-left: 10px;
+}
+
+
+.send-button{
+  width: 310px;
+  border-radius: 20px;
+  border-color: blue;
+  background-color: blue;
+  height: 35px;
+  border-style: solid;
+  color: #fff;
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+
+.send-button:hover{
+  box-shadow: 1px 1px 50px rgb(223, 229, 255);
+  color:#fff;
+}
+
+.send-button:active{
+  color:rgb(3, 3, 167);
+}
+
+
+footer{
+  height: 300px;
+  background-color: rgb(20, 22, 24);
+}
+
+
+
+.last-para{
+  position: relative;
+  color: rgb(181, 179, 179);
+  bottom: 0;
+  display: inline-block;
+  margin-top: 70px;
+  cursor: default;
+  margin-left: 400px;
+}
+
+.all-png{
+  flex: 1;
+  display: inline-block;
+  width: 40px;
+  margin-right: 70px;
+}
+
+
+.div-png{
+  margin-left: 300px;
+  row-gap: 50px;
+  margin-top: 50px;
+}
